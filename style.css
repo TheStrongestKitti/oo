@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Indie Flower"
+}
+body {
+ background-image: url("https://i.pinimg.com/originals/a0/5c/2b/a05c2bca258612bc705253bb4473fd3c.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+ ul{
+  font-size: 25px;
+  font-weight: 700;
+  list-style-type: none;
+}
+.nav{
+background-color: #ff5c5c;
+width: 100px;
+margin: 5px;
+padding: 10px;
+border: 5px solid #ff0000;
+color: #ffcccc;
+}
+.nav:hover{
+background-color: #ff0000;
+border: 5px solid #ff5c5c;
+cursor: pointer;
+width: 200px;
+transition: 0.3s;
+color: white;
+}
+a{
+color: #ffcccc;
+text-decoration: none;
+}
+a:hover{
+color: white;
+}
+p:hover{
+text-transform: uppercase;
+}
+.text {
+  color: black;
+}
+.text:hover {
+  color: #ff5757;
+}
+.text2 {
+  color: black;
+}
+.text2:hover {
+  color: #ff0000;
+}
